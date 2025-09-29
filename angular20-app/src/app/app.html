@@ -1,0 +1,24 @@
+<style>
+  main {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: inherit;
+    position: relative;
+  }
+
+</style>
+
+<main class="main">
+  <div class="content">
+    <div class="left-side">
+      <span>Hello, {{ title() }}</span>
+    </div>
+  </div>
+</main>
+    <!-- <app-about *ngIf="isQiankun"></app-about>
+    <router-outlet *ngIf="!isQiankun"></router-outlet> -->
+<router-outlet />
